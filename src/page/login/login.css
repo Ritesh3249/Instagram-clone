@@ -1,3 +1,33 @@
-.login{
-    color:red !important;
+.loginBody{
+ width: 100%;
+ height: 100vh;
+ padding: 2rem 0 0.2rem 0;
+}
+
+.loginMainDiv{
+    width: 80%;
+    border: 1px solid rgb(133, 125, 125);
+    padding: 1rem;
+}
+.logInLogo{
+    margin-bottom: 1rem;
+}
+.logInLogo img{
+    width: 100%;
+    object-fit: contain;
+}
+.loginUserName,.loginPassword {
+    margin-bottom: 1rem;
+}
+
+.forgotPassword{
+    color:#4DB5F9;
+    font-weight:100;
+     cursor:pointer;
+    
+}
+.forgotPassword:hover{
+    transition: 0.3s all ease;
+    color: black;
+    
 }
