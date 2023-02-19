@@ -4,6 +4,7 @@ import Home from '../page/home/Home'
 import Login from "../page/login/Login"
 import Register from "../page/register/Register"
 import Chat from "../page/chat/Chat"
+import Search from '../page/search/Search'
 const MainRoute = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const MainRoute = () => {
             <Route path="/home" element={<Home/>}/>
             <Route path="/register" element={<Register/>}/>
             <Route path="/chat" element={<Chat/>}/>
+            <Route path="/search" element={<Search/>}/>
         </Routes>
         </div>
   )

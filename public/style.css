@@ -4,6 +4,9 @@
  box-sizing: border-box;
 
 }
+:root{
+    --fontStyle: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 .displayFlex{
     display: flex !important;
