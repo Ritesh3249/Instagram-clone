@@ -16,10 +16,7 @@
        width: 100%;
        object-fit: contain;
    }
-   .registerUserName,.registerPassword {
-       margin-bottom: 1rem;
-   }
-   
+ 
    .forgotPassword{
        color:#4DB5F9;
        font-weight:100;

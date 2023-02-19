@@ -1,0 +1,17 @@
+.homeLogo img{
+    width: 15%;
+}
+.homeHeader{
+    position: fixed;        
+    background-color: white;
+    width: 100%;
+    padding: 0.2rem 1rem;
+}
+.homeHeader >span{
+    width: 50%;
+}
+.chatIcon{
+    text-align: right;
+   
+    font-size: 1.4rem;
+}

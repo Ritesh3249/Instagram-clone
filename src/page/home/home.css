@@ -1,0 +1,67 @@
+
+
+.profileInfo{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    
+}
+.profileInfo >span{
+    width: 50%;
+}
+.profileImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.profileImage > div{
+  
+    width: 40%;
+    height: 100%;
+    border-radius: 148px 148px 148px 148px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.profileImage > div img{
+    width: 100%;
+
+}
+.profileName{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.8rem;
+}
+.postAndFollow > span{
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.uploadedPost {
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap:2px;
+    object-fit: contain;
+    overflow: hidden;
+
+}
+.uploadedPost div img{
+    width: 100%;
+
+}
+.socialInfo{
+    display: flex;
+    margin-bottom:1rem ;
+}
+.follow:focus{
+    background-color:#4DB5F9 ;
+    color: white;
+} 
+.socialInfo >button{
+    width: 50%;
+    border-radius: 3px;
+    background:none;
+    border: 1px solid rgb(136, 136, 136);
+    padding: 0.4rem 0;
+    cursor: pointer;
+}

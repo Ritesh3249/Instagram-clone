@@ -7,16 +7,16 @@ const Register = () => {
     <div className='registerBody  displayFlex justifyContentCenter alignItemCenter' >
     <div className='registerMainDiv'>
        <div className='registerLogo'><img src={logo} /></div>
-       <div className='registerUserName marginBotton '>
+       <div className='registerUserName marginBottom '>
         <input className='inputField' placeholder='Name'/>
       </div>
-       <div className='registerUserName marginBotton '>
+       <div className='registerUserName marginBottom '>
         <input className='inputField' placeholder='Email'/>
       </div>
-      <div className='registerPassword '>
+      <div className='registerPassword marginBottom'>
       <input placeholder='Password' className='inputField'/>
       </div>
-      <div className='registerUserName marginBotton '>
+      <div className='registerUserName marginBottom '>
        <input className='inputField' placeholder='Confirm password'/>
      </div>
        <button className='registerSubmit submitButton' >Sign up</button>
