@@ -1,0 +1,9 @@
+.chatMainDiv{
+    font-family: var(--fontStyle);
+}
+.chatUser{
+    text-align: center;
+}
+.chatBox{
+    height: 70vh;
+}

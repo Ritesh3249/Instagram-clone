@@ -14,21 +14,21 @@
     padding: 6px 0 6px 7px;
 }
 
-.findUserInfo{
+.findChatUser{
     margin-bottom: 0.5rem;
     padding: 0.7rem;
     display: flex;
 
 }
-.findMainDiv{
+.findChatMainDiv{
     font-family: var(--fontStyle);
 }
-.findImage{
+.findChatUserImage{
     margin-right: 0.7rem;
     width: 2rem;
 
 }
-.findImage img{
+.findChatUserImage img{
     width: 100%;
     height: 100%;
 

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='homeFooter displayFlex justifyContentCenter'>
             <div className='footerMainDiv'>
-            <span  ><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span  ><i className="fa-solid fa-magnifying-glass"></i></span>
            
             </div>
         </div>
