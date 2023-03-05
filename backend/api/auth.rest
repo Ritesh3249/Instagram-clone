@@ -1,0 +1,20 @@
+@host = http://localhost:3001/api/auth
+
+POST {{host}}/register
+Content-Type: application/json
+
+{
+    "email":"ritesh@gmail.com",
+    "phone":"1234567890",
+    "name":"ritesh",
+    "password":"Ritesh@123"
+}
+ 
+###
+POST {{host}}/login
+Content-Type: application/json
+
+{
+    "email":"ritesh@gmail.com",
+    "password":"Ritesh@123"
+}
